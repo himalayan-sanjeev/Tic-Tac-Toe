@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1><strong>Tic Tac Toe</strong></h1>
+        <div class="score">
+        <h4><span> Player-1 Score:</span><span id="player-1">0</span></h4>
+        <h4><span> Player-2 Score:</span><span id="player-2">0</span></h4>
+        <h4><span> Tie:</span><span id="ties">0</span></h4>
+        </div>
+        <h5> Player's Turn:<span id="turn">1</span></h5>
+
+    </header>
+
+    <div class="board">
+        <div class="row row-1">
+            <div class="box col-1" id="1"></div>
+            <div class="box col-2" id="2"></div>
+            <div class="box col-3" id="3"></div>
+        </div>
+        <div class="row row-2">
+            <div class="box col-1" id="4"></div>
+            <div class="box col-2" id="5"></div>
+            <div class="box col-3" id="6"></div>
+        </div>
+        <div class="row row-3">
+            <div class="box col-1" id="7"></div>
+            <div class="box col-2" id="8"></div>
+            <div class="box col-3" id="9"></div>
+        </div>
+    </div>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+
+    <script type="text/javascript " src="script.js "></script>
+</body>
+
+</html>
