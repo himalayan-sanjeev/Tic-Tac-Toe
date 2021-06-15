@@ -1,5 +1,10 @@
-.row {
+.board {
     display: table;
+    margin: 0 400px 0 400px;
+}
+
+.row {
+    display: table-row;
     width: 600px;
     height: 150px;
     margin: auto;
@@ -9,20 +14,12 @@
     display: table-cell;
     text-align: center;
     font-size: 50pt;
-    padding: 10px;
+    font-weight: bold;
+    padding: 15px;
     width: 200px;
     height: 150px;
     justify-content: center;
-}
-
-.row-1,
-.row-2 {
-    border-bottom: 5px solid black;
-}
-
-.col-1,
-.col-2 {
-    border-right: 5px black solid;
+    border: 5px solid black;
 }
 
 h1,
@@ -36,9 +33,17 @@ h5 {
 h1 {
     background-color: rgb(236, 6, 6);
     color: antiquewhite;
-    padding: 50px;
+    padding: 20px;
 }
 
 h5 {
     padding-bottom: 20px;
+}
+
+h4 span {
+    background-color: aquamarine;
+}
+
+.row {
+    background-color: rgb(226, 214, 43);
 }
